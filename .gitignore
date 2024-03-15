@@ -1,6 +1,11 @@
 node_modules
 # Keep environment variables out of version control
 .env
-server/node_modules/
+/coverage
+client/package-lock.json
 server/package-lock.json
+client/yarn.lock
 server/yarn.lock
+
+server/uploads/
+server/node_modules/
