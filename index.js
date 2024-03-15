@@ -23,7 +23,7 @@ const server = app.listen(3006, () => {
 
 const io = new Server(server, {
   cors: {
-    origin: "https://whatsapp-backend-1.onrender.com",
+    origin: "https://localhost:3000",
   },
 });
 
