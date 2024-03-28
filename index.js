@@ -23,7 +23,7 @@ const server = app.listen(3006, () => {
 
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://localhost:3000",
   },
 });
 
